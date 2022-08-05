@@ -154,3 +154,21 @@ p {
      border-radius: 5px;
      box-shadow: 0px 0px 10px 2px #0c0c0c, 0px 2px 2px#ff9432;
 }
+
+@media (min-width: 720px) {
+     h1 {
+         color: red; 
+     }
+}
+
+@media (min-width: 1280px) {
+     h1 {
+         color: blue; 
+     }
+}
+
+@media (min-width: 1400px) {
+     h1 {
+         color: blue; 
+     }
+}
