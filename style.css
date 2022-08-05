@@ -1,34 +1,36 @@
 /* FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-   
 
-     /*RESET*/
-*{
+
+/*RESET*/
+* {
      margin: 0px;
      padding: 0px;
      box-sizing: border-box;
      outline: none;
      font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
-     overflow-x: hidden;}
+     overflow-x: hidden;
+}
 
-     /*COLORS
+/*COLORS
       #e3042a
       #8f0424 
       #232323
       #ff9432 laranja naruto
       #232323*/
 
-     /*BACKGRUOND*/
-body{
-    display: flex;
-    justify-content: center;
-    height: 200vh;
-    align-items: center;
-    position: relative;
-    background-color: #242424;}
-    
-header{
+/*BACKGRUOND*/
+body {
+     display: flex;
+     justify-content: center;
+     height: 200vh;
+     align-items: center;
+     position: relative;
+     background-color: #242424;
+}
+
+header {
      display: flex;
      position: absolute;
      width: 90%;
@@ -36,8 +38,10 @@ header{
      margin-top: 0vh;
      background: #0c0c0c;
      border-radius: 5px;
-     box-shadow: 0px 0px 15px 2px #0c0c0c;}
-.bar{
+     box-shadow: 0px 0px 15px 2px #0c0c0c;
+}
+
+.bar {
      display: flex;
      position: absolute;
      height: 6%;
@@ -45,8 +49,10 @@ header{
      border-radius: 5px;
      background-color: #42404b;
      margin-top: 50px;
-     box-shadow: 0px 0px 5px 5px #0c0c0c;}
-.menu{
+     box-shadow: 0px 0px 5px 5px #0c0c0c;
+}
+
+.menu {
      width: 100%;
      float: left;
      padding: 18px 8%;
@@ -55,23 +61,26 @@ header{
      position: absolute;
      font-size: 20px;
      color: aliceblue;
-     text-decoration: none;}
-a{
+     text-decoration: none;
+}
+
+a {
      margin-right: 50px;
      color: rgba(240, 248, 255, 0.712);
      text-decoration: none;
      text-shadow: 2px 2px 3px #1f1e1e;
 }
 
-h1{
+h1 {
      font-size: 50px;
      margin-top: 55px;
      margin-left: 40px;
      position: absolute;
-     color:#ff9432 ;
-     text-shadow: 4px 4px 10px black, 2px 2px 2px #fd7b24;}
+     color: #ff9432;
+     text-shadow: 4px 4px 10px black, 2px 2px 2px #fd7b24;
+}
 
-.test{
+.test {
      display: flex;
      height: 480px;
      width: 97.5%;
@@ -80,9 +89,10 @@ h1{
      margin-left: 15.5px;
      background-color: #ff9432;
      box-shadow: 4px 5px 5px 1px #d336069c;
-     border-radius: 80px;}
+     border-radius: 80px;
+}
 
-.naruto{
+.naruto {
      display: flex;
      height: 480px;
      width: 1080px;
@@ -91,51 +101,56 @@ h1{
      margin-left: 15.5px;
      background-image: url("naruto.jpg");
      background-size: 80% 100%;
-     background-repeat: no-repeat;}
+     background-repeat: no-repeat;
+}
 
-.roll{
+.roll {
      display: flex;
      height: 470px;
      width: 400px;
      position: absolute;
      margin-top: 5px;
      margin-left: 5px;
-     background-color: #0c0c0c7e ;
+     background-color: #0c0c0c7e;
      border-radius: 5px;
-     box-shadow: 0px 0px 10px 2px #0c0c0c, 0px 2px 2px#ff9432;}
+     box-shadow: 0px 0px 10px 2px #0c0c0c, 0px 2px 2px#ff9432;
+}
 
-
-p{ 
+p {
      margin-top: 220px;
      margin-left: 15px;
      font-size: 20px;
      color: #2f2f2f;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-.roll2{
-     
+.roll2 {
+
      display: flex;
      height: 470px;
      width: 400px;
      position: absolute;
      margin-top: 500px;
      margin-left: 5px;
-     background-color: #242424 ;
+     background-color: #242424;
      border-radius: 5px;
-     box-shadow: 0px 0px 10px 2px #0c0c0c, 0px 2px 2px#ff9432;}
+     box-shadow: 0px 0px 10px 2px #0c0c0c, 0px 2px 2px#ff9432;
+}
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
      background-color: #ff9432;
      height: 70%;
-     width: 0px;}
+     width: 0px;
+}
 
-.roll3{
+.roll3 {
      display: flex;
      height: 470px;
      width: 800px;
      position: absolute;
      margin-top: 500px;
      margin-left: 5px;
-     background-color: #242424 ;
+     background-color: #242424;
      border-radius: 5px;
-     box-shadow: 0px 0px 10px 2px #0c0c0c, 0px 2px 2px#ff9432;}
+     box-shadow: 0px 0px 10px 2px #0c0c0c, 0px 2px 2px#ff9432;
+}
